@@ -4,6 +4,7 @@
 // --------------------------
 
 #include <a_samp>
+#undef Kick
 #define Kick(%0) SetTimerEx("promsters_KickTimer", 50, false, "i", %0)
 native promsters_Kick(playerid) = Kick;
 
