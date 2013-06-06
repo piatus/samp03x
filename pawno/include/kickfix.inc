@@ -4,7 +4,7 @@
 // --------------------------
 
 #include <a_samp>
-#undef Kick
+//#undef Kick ^^causes undefined symbol \"Kick\".
 #define Kick(%0) SetTimerEx("promsters_KickTimer", 50, false, "i", %0)
 native promsters_Kick(playerid) = Kick;
 
